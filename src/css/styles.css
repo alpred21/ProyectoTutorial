@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Play&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=PT+Sans+Narrow&family=Play&display=swap');
+
+@keyframes transicion{
+  from{
+      opacity: 0;
+      transform: rotateY(-10deg);
+  }
+  to{
+      opacity: 1;
+      transform: rotateY(0);
+  }
+}
 *{
   margin: 0;
   padding: 0;
 }
 body{
+  animation: transicion 1s;
   background-image: url(https://w0.peakpx.com/wallpaper/946/573/HD-wallpaper-cracked-metal-abstract-background-black-metallic-scratches.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -16,6 +28,7 @@ header{
   background-color: #fff;
 }
 .nombre{
+  
   width: auto;
   height: 150px;
   display: flex;
@@ -64,27 +77,198 @@ header{
   width: auto;
 }
 .artcl{
-  background-color: #fff;
+  margin: 2%;
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.artcl_categoria{
+  margin: 2%;
+  background-color: #ffffffec;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.artcl_prin{
+  width: 70%;
+  float: left;
+  margin: 2%;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.artcl_ol{
+  margin: 2%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .artcl_tt{
+  margin: 2%;
   text-align: center;
   padding: 1%;
+  background-color: #BF925A;
+  border-radius: 20px;
 }
 .artcl_subt{
+  margin: 1%;
   text-align: center;
   padding: 1%;
+  background-color:#BF925A ;
+  border-radius: 20px;
+}
+.artcl_txt{
+  margin: 1%;
+  padding: 1%;
+  background-color:#343434;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+  width: 60%;
+  height: auto;
 }
 
 .artcl_img{
+  margin: 1%;
+  width: 30%;
+  height: auto;
+  background-color: #343434d8;
+  border: 5px solid #BF925A;
+  padding: 2%;
+  padding-left: 38%;
+  padding-right: 38%;
+  border-radius: 20px;
+}
+.artcl_img_pe{
   width: 200px;
   height: auto;
-  border-radius: 20px;
-  margin: 20px;
 }
+
+.artcl_img_gif{
+  margin: 1%;
+  width: 60%;
+  height: auto;
+  background-color: #343434;
+  border: 5px solid #BF925A;
+  padding: 2%;
+  padding-left: 60%;
+  padding-right: 60%;
+  border-radius: 20px;
+  
+}
+
+.menupe_sub{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menupe_op{
+
+  width: 100%;
+  text-align: end;
+  background-color: #343434;
+  display: flex;
+  flex-direction: column;
+  text-align: start;  
+
+}
+.menupe_txt{
+  padding: 5%;
+  list-style: none;
+
+}
+.menupe_txt a{
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+  transition: all 0.3s;
+}
+.menupe_txt a:hover{
+  color: #ffc853;
+}
+
+.menupe_img{
+  width: 100%;
+  height: auto;
+}
+
+.menupe{
+  position: sticky;
+  top: 90px;
+  width: 20%;
+  float: right;
+}
+
+.comentario{
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  margin: 2%;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo_contacto{
+  width: 40%;
+  padding-left: 0%;
+  padding-right: 10%;
+  margin: 0%;
+}
+.logo_contacto1{
+  width: 90%;
+}
+
+
+.comentario_op li{
+  list-style: none;
+  font-size: 20px;
+  font-family: 'Gruppo', sans-serif;
+  font-weight: bolder;
+  padding: 20px;
+}
+button{
+  font-family: 'Gruppo', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  background-color: #9E91F2;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  transition: all 0,5s;
+}
+button:hover{
+  background-color: #7F44A6;
+}
+
+
+
+
+.contactanos{
+  display: flex;
+  justify-content: space-around;
+}
+
 footer{
 
   color:white;
@@ -111,8 +295,9 @@ footer{
 
 }
 .redes_img:hover{
-  background-color: rgba(255, 255, 255, 0.37);}
-.conectate{
+  background-color: rgba(255, 255, 255, 0.37);
+}
+.contactate{
   padding: 1.5%;
   text-align: center;
 }

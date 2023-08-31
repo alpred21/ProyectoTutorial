@@ -1,0 +1,207 @@
+ATOMIC DESIGN, SE USA PARA CREAR POR BLOQUES 
+MICROSERVICIOS A NIVEL DE BACKEND
+FRONEL 
+
+dafont para clases de fuentes 
+
+https://starsvolleyball.es/ 
+https://www.cba.com.bo/home/
+https://www.norcalvbc.com/
+https://www.legacyvbc.com/
+https://volleyball-club.web.cern.ch/
+https://coastvbc.com/
+
+(pie de pagina: conectate con nosotros)
+ cual es la diferencia entre display none y visibility hidden
+Se trata de un párrafo normal que al recibir un click esconde o muestra alternativamente el contenido de un elemento DIV. HACER CLICK AQUÍ PARA OCULTAR
+
+La propiedad visibility se usa para dos efectos:
+
+El valor hidden esconde un elemento, pero deja (vacío) el espacio donde debería aparecer.
+
+10% boostrap 
+
+. clase 
+# id
+: pseudo clase
+:: pseudo elemento
+
+https://www.edu.xunta.gal/centros/ieschanmonte/aulavirtual/pluginfile.php/49012/mod_resource/content/1/css.pdf
+
+ATOMIC DESINGN (INVESTIGAR)
+
+
+
+<aside>
+    <h3>PASOS FUNDAMENTALES PARA COMENZAR</h3>
+    <ul>
+        <li><a href="#REGLAS BASICAS">REGLAS BASICAS</a></li>
+        <li><a href="#POSICIONES EN LA CANCHA">POSICIONES EN LA CANCHA</a></li>
+        <li><a href="#HABILIDADES BASICAS">HABILIDADES BASICAS</a></li>
+        <li><a href="#EJERCICIO PRACTICO">EJERCICIO PRACTICO</a></li>
+        <li><a href="#COMUNICACION Y TRABAJO EN EQUIPO">COMUNICACION Y TRABAJO EN EQUIPO</a></li>
+        <li><a href="#PARTICIPA EN JUEGOS AMISTOSOS">PARTICIPA EN JUEGOS AMISTOSOS</a></li>
+        <br>
+    </ul>
+</aside>
+
+<section id="REGLAS BASICAS">
+    <h3>1. REGLAS BASICAS</h3>
+    <ol>
+        <li>El voleibol se juega entre dos equipos, con seis jugadores en cada lado de la red.</li>
+        <li>El objetivo es hacer que la pelota toque el suelo en el lado del oponente o que el oponente cometa un error.</li>
+        <li>Cada equipo tiene tres toques para pasar la pelota al lado del oponente.</li>
+        <li>La rotación es importante: los jugadores cambian de posición en el sentido de las agujas del reloj después de ganar el saque.</li>
+    </ol>
+</section>
+<section id="POSICIONES EN LA CANCHA">
+    <h3>2. Posiciones en la Cancha:</h3>
+    <ol>
+        <li><b>Colocador:</b> El jugador que establece la pelota para los atacantes.</li>
+        <li><b>Líbero:</b> Un jugador defensivo especializado, que no puede atacar o bloquear, pero es excelente en la defensa y el pase.</li>
+        <li><b>Atacantes:</b> Jugadores que saltan y golpean la pelota en el lado del oponente para anotar puntos.</li>
+        <li><b>Bloqueadores:</b> Jugadores que intentan bloquear los ataques del oponente en la red.</li>
+    </ol>
+</section>
+<section id="HABILIDADES BASICAS">
+    <h3>3. Habilidades Básicas:</h3>
+    <ol>
+        <li><b>Saque:</b> Comienza el juego al golpear la pelota desde detrás de la línea de saque hacia el lado del oponente.</li>
+        <li><b>Pase:</b> Golpea la pelota con las manos para dirigirla hacia el colocador de tu equipo.</li>
+        <li><b>Remate:</b> Saltar y golpear la pelota para enviarla al lado del oponente con fuerza.</li>
+        <li><b>Bloqueo:</b> Salta con los brazos extendidos cerca de la red para detener los remates del oponente.</li>
+    </ol>
+</section>
+<section id="EJERCICIO PRACTICO">
+    <h3>4. Ejercicio Práctico: Pase y Saque:</h3>
+    <p>Comienza con un compañero. Practica el pase pasándote la pelota suavemente. Mantén los brazos estirados y usa tus manos para controlar la dirección.</p>
+    <p>Luego, trabaja en tu saque. Sujeta la pelota con una mano y golpéala con la otra, intentando que pase por encima de la red y caiga en el área de servicio del oponente.</p>
+</section>
+<section id="COMUNICACION Y TRABAJO EN EQUIPO">
+    <h3>5. Comunicación y Trabajo en Equipo:</h3>
+    <p>La comunicación es clave. Usa señales visuales o palabras clave para coordinar tus acciones con tus compañeros de equipo.</p>
+    <p>Practica trabajar juntos en situaciones de tres toques para pasar la pelota de manera efectiva.</p>
+
+</section>
+<section id="PARTICIPA EN JUEGOS AMISTOSOS">
+    <h3>6. Participa en Juegos Amistosos:</h3>
+    <p>Organiza partidos informales con amigos o compañeros de clase para aplicar lo que has aprendido.</p>
+    <p>No te preocupes demasiado por ganar al principio, ¡la práctica es más importante!</p>
+
+</section>
+<section>Recuerda que el voleibol es un deporte que requiere tiempo y paciencia para desarrollar habilidades sólidas. Mantén una actitud positiva y sigue practicando para mejorar. ¡Diviértete jugando y aprendiendo!</section>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form action="ay.html" method="post">
+            <ul>
+              <li>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <br>
+              <li>
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_mail" />
+              </li>
+              <br>
+              <li>
+                <label for="msg">Mensaje:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+              <br>
+              <li class="button">
+                <button type="submit">Envíe su mensaje</button>
+              </li>
+              
+            </ul>
+          </form>
+    </section>
+</body>
+</html>
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Play&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: pt sans narrow,sans-serif;
+}
+.inicio_body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc_tQTFYkXga5O68qj2NU9HIy8vXqUk_RNW6vc_qOt8eflFxasBCkrJMqBCU1BmgpWx1vv7pl9VKLv_ClqWr9y99LdFIGXc1beJxStqoeegNpRaCqLxDFsRutXSQnCM4NIxnpXxyzDXEy_LUFMg2id5KyBKfAx8zg8vfxK7ZmxIWvVa4SL5FI3wrx4_RVcucTmpRyFP04sJKSIZQcgLq0eMRSbrNLKoHtvaXV0HeBi5YOXl9-OhWMgEN4PQcejCmJ_8rIaIW46yl853n1fh8cFEsZtt0NCsv4QB2X1A7l42gifk_o1qipItJw6qx0ljlTaxPmZqqWjXa32OtPg8csQOfO1zEOvGAU6DFxJJX-Hh4Ge0cRzzJ2BImakAEmbPqbAGc_Zh7Isc7UCycn0rNy7mjqaSRvslGjMJ7EDWxrjh6Bz217cwEUlZzQ69KMFnBXkGPDS2KIhcZftlln8GsLV4X1kRcXPM1bFlpiexjFywnG3yjVeoGlE102uRnM0OdHUsMAQs9K2i_3C4VtJFj5AB3VXQRmYPcyHolYvc0aBrFnogdMPM7DuqGnJWPdLr-baHVg05iYe6dGWnCNV-EiAOEEuwppafZZmBbuFRs8A-2j5y0D5pIG37hlFcYUAew_3-a8gdVEQICX4rcysOVrmZC2KPt7Zi5imPiEiWjUoF4Ax10TFp2GEHeI4HfPdH8bA6V2VqSL7b_99e5xFIxHOYGSTECFIpypqC2QVbQMHoZJB5fBDvlmofpYRKxbbNh-2WD5mhdplfmgMF2ZFo2Kp4XDEypNJUIXw0g6HGVEAdCyxrMhoFAhwKzNZTQLs83s6UG5isUmo915n7LbGe7l42ZNuBVy8dmRPzEkongJdF5Fg36UIqdSkdYOBs7XUxkwuLlWcp-1itDgXT3BmQpV-ybGqUj4MhbJtcpexgZNc7uNYJURZcnBY_XxDerTqLaCPg8AvcMwSiAk8_Q3n_Xwm-CafY=w862-h360-s-no?authuser=2);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+} 
+.nombre_up{
+  padding-top: 5px;
+  width: 18%;
+  height: auto;
+  border: 0px;
+}
+.menu1{
+  font-size: 36px;
+  display: flex;
+  height: 100px;
+  width: auto;
+  
+}
+.menu1_op{
+  list-style: none;
+  display: flex;
+  background-color: rgba(70.13, 70.13, 70.13, 0.60);
+  justify-content: space-around;
+  width: 85%;
+  height: 100px;
+}
+.menu1 a{
+  text-decoration: none;
+  color: white;
+  line-height: 100px;
+  transition: 0,5;
+}
+.menu1 a:hover{
+  border-bottom: 4px solid #B5944F;
+}
+.menu1_img{
+  float: right;
+  position:relative
+}
+.logo{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo1{
+  width: 30% ;
+  height: 30% ;
+}
+.artcl{
+  background-color: #FFF;
+  font-size: 36px;
+}
+.artcl_tt{
+  
+}
